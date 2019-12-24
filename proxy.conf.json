@@ -1,0 +1,10 @@
+{
+  "": {
+    "target": "https://s9uare.com/api.php",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api.php": "/api.php"
+    }
+  }
+}
