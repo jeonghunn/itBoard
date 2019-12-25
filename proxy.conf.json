@@ -1,10 +1,7 @@
 {
-  "": {
-    "target": "https://s9uare.com/api.php",
+  "/api.php": {
+    "target": "https://unopenedbox.com/announcer",
     "secure": true,
-    "changeOrigin": true,
-    "pathRewrite": {
-      "^/api.php": "/api.php"
-    }
+    "changeOrigin": true
   }
 }

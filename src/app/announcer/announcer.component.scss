@@ -1,0 +1,20 @@
+
+
+.announcer-view {
+  display: block;
+  text-align: center;
+  align-content: center;
+  min-height: 500px;
+  margin-top: 16px;
+
+  .face {
+    font-size: 7em;
+    font-weight: bold;
+  }
+
+  .description {
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+}

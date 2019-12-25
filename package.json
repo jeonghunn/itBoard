@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0 --proxy-config proxy.conf.json --port 4200",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -23,15 +23,17 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@ngx-translate/core": "latest",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.4.0",
+    "speak-tts": "^2.0.8",
     "tslib": "^1.10.0",
     "tslint-eslint-rules": "^5.4.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.21",
-    "@angular/cli": "~8.3.21",
+    "@angular-devkit/build-angular": "0.803.20",
+    "@angular/cli": "8.3.20",
     "@angular/compiler-cli": "~8.2.14",
     "@angular/language-service": "~8.2.14",
     "@types/jasmine": "~3.3.8",
