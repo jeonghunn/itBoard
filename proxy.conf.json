@@ -1,6 +1,6 @@
 {
   "/api.php": {
-    "target": "https://unopenedbox.com/announcer",
+    "target": "https://unopenedbox.com/itboard",
     "secure": true,
     "changeOrigin": true
   }

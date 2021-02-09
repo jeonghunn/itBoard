@@ -4,11 +4,11 @@ import {
   RouterModule,
   Routes,
 } from '@angular/router';
-import { AnnouncerComponent } from './announcer/announcer.component';
+import { ItboardComponent } from './itboard/itboard.component';
 
 const routes: Routes = [
-  { path: '', component: AnnouncerComponent },
-  { path: 'main', component: AnnouncerComponent },
+  { path: '', component: ItboardComponent },
+  { path: 'main', component: ItboardComponent },
 ];
 
 @NgModule({

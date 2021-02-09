@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "announcer-front": {
+    "itboard-front": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "announcer-front:build"
+            "browserTarget": "itboard-front:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "announcer-front:build:production"
+              "browserTarget": "itboard-front:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "announcer-front:build"
+            "browserTarget": "itboard-front:build"
           }
         },
         "test": {
@@ -113,18 +113,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "announcer-front:serve"
+            "devServerTarget": "itboard-front:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "announcer-front:serve:production"
+              "devServerTarget": "itboard-front:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "announcer-front",
+  "defaultProject": "itboard-front",
   "schematics": {
     "@schematics/angular:component": {
       "styleext": "scss"

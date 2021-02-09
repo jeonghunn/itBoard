@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
 
   // tslint:disable-next-line:no-empty
   public constructor(
-    private router: Router,
+    public router: Router,
   ) { }
 
   // tslint:disable-next-line:no-empty

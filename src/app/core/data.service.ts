@@ -2,6 +2,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import {
+  delay,
+  repeat,
+} from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 import { ApiResponse } from '../model/api-response';
 
@@ -33,11 +37,13 @@ export class DataService {
     );
   }
 
-  public getAnnouncerMessage(): Observable<ApiResponse> {
-    const formData = this.getFromDataBase('announcer_subscribed_announce');
+  public getitboardMessage(): Observable<ApiResponse> {
+    const formData = this.getFromDataBase('itboard_subscribed_announce');
     formData.append('subscribe_srl', '3');
 
     return this.httpClient.post<ApiResponse>(this.apiUrl, formData).pipe(
+      delay(30000),
+      repeat(),
     );
   }
 
