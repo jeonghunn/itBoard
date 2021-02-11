@@ -71,6 +71,9 @@
       true,
       "rxjs/Rx"
     ],
+    "deprecation": {
+      "severity": "warning"
+    },
     "label-position": true,
     "no-arg": true,
     "no-bitwise": true,
