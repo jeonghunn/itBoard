@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
-import {
-  MatButtonModule, MatCardModule,
-  MatMenuModule,
-  MatToolbarModule,
-} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { TranslateModule } from '@ngx-translate/core';
 import { UiModule } from '../../ui/ui.module';
 import { Error404Component } from './error404/error404.component';
