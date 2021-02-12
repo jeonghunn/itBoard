@@ -71,8 +71,9 @@ export class ItboardComponent implements OnInit {
   public announce(sentences: BroadcastSentence[], index: number = 0): void {
     this.face = sentences[index].face;
     this.description = sentences[index].content;
-    // tslint:disable-next-line:brace-style
-    if (sentences[index].display && sentences[index].display !== '') { this.setLEDMessage(sentences[index].display); }
+    if (sentences[index].display && sentences[index].display !== '') {
+      this.setLEDMessage(sentences[index].display);
+    }
     this.changeDetectorRef.detectChanges();
     let isNextAnnounceCalled: boolean = false;
     this.speech.speak({
