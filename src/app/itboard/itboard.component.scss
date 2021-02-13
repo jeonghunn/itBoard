@@ -1,20 +1,14 @@
 
 
 .itboard-view {
-  display: block;
-  text-align: center;
-  align-content: center;
-  min-height: 500px;
-  margin-top: 16px;
+  display: flex;
 
-  .face {
-    font-size: 7em;
-    font-weight: bold;
-  }
-
-  .description {
-    font-size: 4em;
-    font-weight: bold;
+  .panel {
+    width: 50%;
+    height: 100%;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
   }
 
 }

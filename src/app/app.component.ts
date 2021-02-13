@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title: string = 'itboard-front';
+  public isSideNavOpen: boolean = false;
 }
