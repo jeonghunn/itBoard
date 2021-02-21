@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  OnInit,
+  Output,
+} from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,6 +12,9 @@ import { Router } from '@angular/router';
   styleUrls: [ './navbar.component.scss' ],
 })
 export class NavbarComponent implements OnInit {
+
+  @Output()
+  public readonly toggleSidNav: EventEmitter<null> = new EventEmitter();
 
   // tslint:disable-next-line:no-empty
   public constructor(

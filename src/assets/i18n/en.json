@@ -17,5 +17,8 @@
     "MALE": "Male",
     "FEMALE": "Female",
     "ALL":"All"
+  },
+  "SIDENAV": {
+    "ABOUT": "About"
   }
 }

@@ -1,4 +1,5 @@
 import {
+  ChangeDetectorRef,
   Component,
   OnInit,
 } from '@angular/core';
@@ -17,10 +18,15 @@ export class AppComponent implements OnInit {
   public constructor(
     public colorSchemeService: ColorSchemeService,
     public translateService: TranslateService,
+    public changeDetectorRef: ChangeDetectorRef,
   ) {
     translateService.setDefaultLang(translateService.getBrowserLang());
   }
   public ngOnInit(): void {
     this.colorSchemeService.load();
+  }
+
+  public toggleSidNav(): void {
+    this.isSideNavOpen = !this.isSideNavOpen;
   }
 }

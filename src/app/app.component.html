@@ -1,4 +1,6 @@
-<app-navbar></app-navbar>
+<app-navbar
+  (toggleSidNav)="toggleSidNav()"
+></app-navbar>
 <mat-drawer-container
   class="drawer-container"
   [hasBackdrop]="true"
@@ -7,7 +9,12 @@
     #drawer
     [mode]="'over'"
     [opened]="isSideNavOpen"
-  >I'm a drawer</mat-drawer>
+    [autoFocus]="false"
+  >
+    <app-sidenav
+      (toggleSidNav)="toggleSidNav()"
+    ></app-sidenav>
+  </mat-drawer>
   <mat-drawer-content>
     <div class="container">
       <router-outlet></router-outlet>
