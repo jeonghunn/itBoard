@@ -25,7 +25,7 @@
     "@angular/router": "~11.2.0",
     "@ngx-translate/core": "latest",
     "@ngx-translate/http-loader": "^6.0.0",
-    "cypress": "^6.4.0",
+    "cypress": "^6.5.0",
     "ngx-childprocess": "0.0.6",
     "rxjs": "~6.6.3",
     "speak-tts": "^2.0.8",
