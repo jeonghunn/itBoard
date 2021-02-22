@@ -37,7 +37,7 @@ export class ItboardComponent implements OnInit {
     ).then((data) => {
       // The "data" object contains the list of available voices and the voice synthesis params
       console.log('Speech is ready, voices are available', data);
-      this.getitboardMessage();
+      //this.getitboardMessage();
 
     }).catch(e => {
       console.error('An error occured while initializing : ', e);

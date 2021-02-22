@@ -29,5 +29,9 @@
   },
   "SIDENAV": {
     "ABOUT": "정보.."
+  },
+  "INTRO": {
+    "NEW": "시작하기",
+    "GET_PREVIOUS": "이전 환경 가져오기"
   }
 }

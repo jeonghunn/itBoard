@@ -20,5 +20,9 @@
   },
   "SIDENAV": {
     "ABOUT": "About"
+  },
+  "INTRO": {
+    "NEW": "Let's Start",
+    "GET_PREVIOUS": "Get Previous Environment"
   }
 }
