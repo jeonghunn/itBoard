@@ -1,6 +1,8 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatRippleModule } from '@angular/material/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -13,13 +15,11 @@ import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    NavbarComponent,
     FooterComponent,
     Error404Component,
     Error500Component,
   ],
   exports: [
-    NavbarComponent,
     FooterComponent,
     Error404Component,
     Error500Component,
@@ -32,6 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     MatButtonModule,
     MatCardModule,
     MatIconModule,
+    MatRippleModule,
+    CommonModule,
   ],
 })
 export class ComponentsModule { }

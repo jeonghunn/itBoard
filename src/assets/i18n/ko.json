@@ -28,7 +28,8 @@
     "ALL": "상관 없음"
   },
   "SIDENAV": {
-    "ABOUT": "정보.."
+    "ABOUT": "정보..",
+    "SETTING": "설정"
   },
   "INTRO": {
     "NEW": "시작하기",

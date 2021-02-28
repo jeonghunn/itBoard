@@ -19,7 +19,8 @@
     "ALL":"All"
   },
   "SIDENAV": {
-    "ABOUT": "About"
+    "ABOUT": "About",
+    "SETTING": "Settings"
   },
   "INTRO": {
     "NEW": "Let's Start",

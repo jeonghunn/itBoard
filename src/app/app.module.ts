@@ -20,6 +20,7 @@ import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { ItboardComponent } from './itboard/itboard.component';
 import { LayoutModule } from './layout/layout.module';
+import { PageModule } from './page/page.module';
 import { WidgetModule } from './widget/widget.module';
 
 const HttpLoaderFactory = (http: HttpClient) => {
@@ -50,6 +51,7 @@ const HttpLoaderFactory = (http: HttpClient) => {
     }),
     LayoutModule,
     WidgetModule,
+    PageModule,
   ],
   providers: [],
   bootstrap: [ AppComponent ],

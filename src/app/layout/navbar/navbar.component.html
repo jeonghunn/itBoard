@@ -5,4 +5,11 @@
     (click)="toggleSidNav.emit()"
     ><mat-icon>menu</mat-icon></button>
 
+  <span
+    matRipple
+    *ngIf="!isMainPage"
+    (click)="go('main')"
+    class="title"
+  >itBoard</span>
+
 </mat-toolbar>
