@@ -13,12 +13,14 @@ import { LayoutModule } from 'src/app/layout/layout.module';
 import { AboutComponent } from './about/about.component';
 import { IntroPageComponent } from './intro-page/intro-page.component';
 import { SettingComponent } from './setting/setting.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
     AboutComponent,
     SettingComponent,
     IntroPageComponent,
+    SignInComponent,
   ],
   imports: [
     CommonModule,

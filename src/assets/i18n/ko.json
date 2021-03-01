@@ -34,7 +34,7 @@
   "INTRO": {
     "TITLE": "반가워요!",
     "NEW": "시작하기",
-    "GET_PREVIOUS": "이전 환경 가져오기"
+    "GET_PREVIOUS": "이미 사용한 적 있음"
   },
   "INTRO_PAGE": {
     "TITLE": "몇가지 설정 후 바로 시작",
@@ -58,5 +58,12 @@
     "DONE": {
       "TITLE": "무야호! 이제 모든 설정이 완료 되었습니다."
     }
+  },
+  "SIGN_IN": {
+    "TITLE": "로그인하여 이전 환경을 불러오세요.",
+    "CHANGE": "변경",
+    "EMAIL": "이메일",
+    "PASSWORD": "비밀번호",
+    "CURRENT_SERVER": "현재 서버"
   }
 }

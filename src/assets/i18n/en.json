@@ -25,7 +25,7 @@
   "INTRO": {
     "TITLE": "Welcome!",
     "NEW": "Let's Start",
-    "GET_PREVIOUS": "Get Previous Environment"
+    "GET_PREVIOUS": "Already Used To It Before"
   },
   "INTRO_PAGE": {
     "TITLE": "Let's start with few settings",
@@ -50,5 +50,12 @@
       "TITLE": "Hooray! You Have Now Done!"
     }
 
+  },
+  "SIGN_IN": {
+    "TITLE": "Keep your previous environment through simple signing in",
+    "CHANGE": "Change",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "CURRENT_SERVER": "Current Server"
   }
 }

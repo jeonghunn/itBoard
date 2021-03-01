@@ -6,5 +6,8 @@
     color="primary"
     (click)="go('intro')"
   >{{ 'INTRO.NEW' | translate }}</button>
-  <button mat-raised-button>{{ 'INTRO.GET_PREVIOUS' | translate }}</button>
+  <button
+    mat-raised-button
+    (click)="go('signin')"
+  >{{ 'INTRO.GET_PREVIOUS' | translate }}</button>
 </div>
