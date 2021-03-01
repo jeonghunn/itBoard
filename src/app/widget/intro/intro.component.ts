@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-intro',
@@ -7,11 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  // tslint:disable-next-line:no-empty
-  public constructor() { }
+  public constructor(
+    public router: Router,
+  ) { }
 
   // tslint:disable-next-line:no-empty
   public ngOnInit(): void {
+  }
+
+  public go(url: string): void {
+    this.router.navigateByUrl(url).then(r => {
+      return undefined;
+    });
   }
 
 }

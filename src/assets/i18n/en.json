@@ -23,7 +23,32 @@
     "SETTING": "Settings"
   },
   "INTRO": {
+    "TITLE": "Welcome!",
     "NEW": "Let's Start",
     "GET_PREVIOUS": "Get Previous Environment"
+  },
+  "INTRO_PAGE": {
+    "TITLE": "Let's start with few settings",
+    "CHOOSE_SERVER": "Choose service provider",
+    "COMPLETE": "Done",
+    "BACK": "Back",
+    "NEXT": "Next",
+    "SIGN_UP": {
+      "TITLE": "Sign Up",
+      "DESCRIPTION": "Sign up to itBoard.net and synchronize all settings between all devices with simple signing in.",
+      "SERVER_TITLE": "What is your API Server URL? (or IP Address)"
+    },
+    "INSTANTLY_START": {
+      "TITLE": "Instantly Start",
+      "DESCRIPTION": "Just start without signing up. You can sign up later."
+    },
+    "BUILD_YOUR_OWN_SERVER": {
+      "TITLE": "Build Your Own Server",
+      "DESCRIPTION": "itBoard is open source project. You can connect to another server or build your own."
+    },
+    "DONE": {
+      "TITLE": "Hooray! You Have Now Done!"
+    }
+
   }
 }

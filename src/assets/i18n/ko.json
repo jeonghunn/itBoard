@@ -32,7 +32,31 @@
     "SETTING": "설정"
   },
   "INTRO": {
+    "TITLE": "반가워요!",
     "NEW": "시작하기",
     "GET_PREVIOUS": "이전 환경 가져오기"
+  },
+  "INTRO_PAGE": {
+    "TITLE": "몇가지 설정 후 바로 시작",
+    "CHOOSE_SERVER": "사용 방법 선택",
+    "COMPLETE": "완료",
+    "BACK": "뒤로",
+    "NEXT": "다음",
+    "SIGN_UP": {
+      "TITLE": "계정 추가",
+      "DESCRIPTION": "itBoard.net에 계정을 생성하고 언제 어디서든 로그인만으로 같은 설정을 동기화합니다.",
+      "SERVER_TITLE": "API 서버 주소를 입력해 주세요. (또는 IP 주소)"
+    },
+    "INSTANTLY_START": {
+      "TITLE": "바로 시작하기",
+      "DESCRIPTION": "추가적인 계정 생성 없이 바로 시작합니다. 나중에 계정을 추가할 수 있습니다."
+    },
+    "BUILD_YOUR_OWN_SERVER": {
+      "TITLE": "자체 서버 환경 구축",
+      "DESCRIPTION": "타 서버나 자체 구성한 서버를 사용합니다."
+    },
+    "DONE": {
+      "TITLE": "무야호! 이제 모든 설정이 완료 되었습니다."
+    }
   }
 }
