@@ -6,15 +6,15 @@
         <ng-template matStepLabel>{{ 'INTRO_PAGE.CHOOSE_SERVER' | translate }}</ng-template>
         <div>
           <mat-selection-list #shoes [multiple]="false">
-            <mat-list-option>
+            <mat-list-option [disableRipple]="true">
               <h3 class="title">{{ 'INTRO_PAGE.SIGN_UP.TITLE' | translate }}</h3>
               <p>{{ 'INTRO_PAGE.SIGN_UP.DESCRIPTION' | translate }}</p>
             </mat-list-option>
-            <mat-list-option>
+            <mat-list-option [disableRipple]="true">
               <h3 class="title">{{ 'INTRO_PAGE.INSTANTLY_START.TITLE' | translate }}</h3>
               <p>{{ 'INTRO_PAGE.INSTANTLY_START.DESCRIPTION' | translate }}</p>
             </mat-list-option>
-            <mat-list-option>
+            <mat-list-option [disableRipple]="true">
               <h3 class="title">{{ 'INTRO_PAGE.BUILD_YOUR_OWN_SERVER.TITLE' | translate }}</h3>
               <p>{{ 'INTRO_PAGE.BUILD_YOUR_OWN_SERVER.DESCRIPTION' | translate }}</p>
             </mat-list-option>
